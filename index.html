@@ -13,12 +13,6 @@
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
 </head>
 <body id="top" class="scrollspy">
-<!-- Pre Loader -->
-<div id="loader-wrapper">
-    <div id="loader"></div>
-    <div class="loader-section section-left"></div>
-    <div class="loader-section section-right"></div>
-</div>
 <!--Navigation-->
  <div class="navbar-fixed">
     <nav id="nav_f" class="bg-white" role="navigation">
@@ -26,7 +20,7 @@
             <div class="nav-wrapper">
             <a href="#" id="logo-container" class="brand-logo"><img src="img/id360-logo.png" alt="ID 360" width="280" title="ID 360 Analytics"></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#intro">Home</a></li>
+                    <li class="active"><a href="#intro">Home</a></li>
                     <li><a href="#why">Why Us</a></li>
                     <li><a href="#work">Work</a></li>
                     <!-- <li><a href="#team">Team</a></li> -->
@@ -34,7 +28,7 @@
                     <li><a href="#contact">Contact</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
-                    <li><a href="#intro">Home</a></li>
+                    <li class="active"><a href="#intro">Home</a></li>
                     <li><a href="#why">Why Us</a></li>
                     <li><a href="#work">Work</a></li>
                     <!-- <li><a href="#team">Team</a></li> -->
@@ -111,11 +105,11 @@
 		</div>
 		<div class="card-tabs">
 		  <ul class="tabs tabs-fixed-width">
-			<li class="tab"><a class="icons-xs active" href="#accessManage" title="Access management"><i class="mdi-social-group blue-text text-accent-3 m-r-xs"></i>Access management</a></li>
-			<li class="tab"><a class="icons-xs" href="#iService" title="Identity as a Service"><i class="mdi-notification-vpn-lock green-text text-lighten-1 m-r-xs"></i>Identity as a Service</a></li>
-			<li class="tab"><a class="icons-xs" href="#iGovernance" title="Identity Governance"><i class="mdi-hardware-security deep-purple-text text-lighten-1 m-r-xs"></i>Identity Governance</a></li>
-			<li class="tab"><a class="icons-xs" href="#cManagement" title="Cloud management"><i class="mdi-file-cloud-queue orange-text text-lighten-1 m-r-xs"></i>Cloud management</a></li>
-			<li class="tab"><a class="icons-xs" href="#cMigration" title="Cloud migration"><i class="mdi-file-cloud-download indigo-text text-lighten-1 m-r-xs"></i>Cloud migration</a></li>
+			<li class="tab"><a class="icons-xs active" href="#accessManage" title="Access management"><i class="mdi-social-group blue-text text-accent-3"></i>Access management</a></li>
+			<li class="tab"><a class="icons-xs" href="#iService" title="Identity as a Service"><i class="mdi-notification-vpn-lock green-text text-lighten-1"></i>Identity as a Service</a></li>
+			<li class="tab"><a class="icons-xs" href="#iGovernance" title="Identity Governance"><i class="mdi-hardware-security deep-purple-text text-lighten-1"></i>Identity Governance</a></li>
+			<li class="tab"><a class="icons-xs" href="#cManagement" title="Cloud management"><i class="mdi-file-cloud-queue orange-text text-lighten-1"></i>Cloud management</a></li>
+			<li class="tab"><a class="icons-xs" href="#cMigration" title="Cloud migration"><i class="mdi-file-cloud-download indigo-text text-lighten-1"></i>Cloud migration</a></li>
 		  </ul>
 		</div>
 		<div class="card-content grey lighten-4">
@@ -254,5 +248,6 @@
     <!--  Scripts-->
     <script src="min/plugin-min.js"></script>
     <script src="min/custom-min.js"></script>
+	<script>console.log(attr("id"))</script>
     </body>
 </html>
