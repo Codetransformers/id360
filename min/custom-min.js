@@ -23,5 +23,3 @@ function scaleCard(e){var el=closest(e);var target=el,id=target.getAttribute('da
 function onAnimated(card,popup){card.addEventListener(transEndEventName,function transitionEnded(){card.style['opacity']=0;popup.style['visibility']='visible';popup.style['zIndex']=9999;card.removeEventListener(transEndEventName,transitionEnded);});}
 function onPopupClick(card,popup){popup.addEventListener('click',function toggleVisibility(e){var size=getDifference(popup,card);card.style['opacity']=1;card.style['borderRadius']='6px';hidePopup(e);transformCard(card,size);},false);}
 function hidePopup(e){e.target.style['visibility']='hidden';e.target.style['zIndex']=2;}});})(jQuery);
-$('#prv-work').on('click', function(){var $last = $('.wc-list:last');$last.remove().css({ 'margin-left': '-33.33333%' });$('.wc-list:first').before($last);$last.animate({ 'margin-left': '0px' }, 2000); });
-$('#nxt-work').on('click', function(){var $first = $('.wc-list:first');$first.animate({ 'margin-left': '-33.33333%' }, 2000, function() {$first.remove().css({ 'margin-left': '0px' }); $('.wc-list:last').after($first);});});
