@@ -12,30 +12,34 @@
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
     <link href="min/custom-min.css" type="text/css" rel="stylesheet" >
 </head>
-<body id="top" class="scrollspy">
+<body id="top" class="">
 <!--Navigation-->
  <header class="navbar-fixed">
     <nav id="nav_f" class="bg-white" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-            <a href="#" id="logo-container" class="brand-logo"><img src="img/id360-logo.png" alt="ID 360" width="280" title="ID 360 Analytics"></a>
+            <a href="index.html" id="logo-container" class="brand-logo"><img src="img/id360-logo.png" alt="ID 360" width="280" title="ID 360 Analytics"></a>
                 <ul class="right hide-on-med-and-down">
-                    <li><a href="#intro">Home</a></li>
-                    <li><a href="#why">Why Us</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <!-- <li><a href="#team">Team</a></li> -->
-                    <li><a href="#career">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="nav-links active" href="#intro">Home</a></li>
+                    <li><a class="nav-links" href="#why">Why Us</a></li>
+                    <li><a class="nav-links" href="#work">Work</a></li>
+					<!--<li><a href="#team">Team</a></li>-->
+					<li><a class="nav-links" href="arriving.html">Blog</a></li>
+                      
+                    <li><a class="nav-links" href="#contact">Contact</a></li>
                 </ul>
                 <ul id="nav-mobile" class="side-nav">
-                    <li class="active"><a href="#intro">Home</a></li>
-                    <li><a href="#why">Why Us</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <!-- <li><a href="#team">Team</a></li> -->
-                    <li><a href="#career">Blog</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a class="nav-links active" href="#intro">Home</a></li>
+                    <li><a class="nav-links" href="#why">Why Us</a></li>
+                    <li><a class="nav-links" href="#work">Work</a></li>
+					<!--<li><a href="#team">Team</a></li>-->
+					<li><a href="arriving.html">Blog</a></li>
+                    <li><a class="nav-links" href="#contact">Contact</a></li>
+					<li><a class="nav-links" href="arriving.html">Privacy Policy</a></li>
+					<li><a class="nav-links" href="arriving.html">Terms of Use</a></li>
+					<li><a class="nav-links" href="#arriving.html">Careers</a></li>
                 </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+            <a data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
             </div>
         </div>
     </nav>
@@ -49,32 +53,32 @@
     </div>
 </div>
 <!--Intro and Home-->
-<div id="intro" class="section scrollspy an-wrap">
-	<div class="an-banner red lighten-1"><div class="container"><i class="fa fa-lg fa-lightbulb-o m-r-sm"></i>Learn how our innovative solutions are helping businesses and organizations become more efficient than ever.</div></div>
+<div id="intro" class="section an-wrap">
+	<div class="an-banner red lighten-2"><div class="container"><i class="fa fa-lg fa-lightbulb-o m-r-sm"></i>Learn how our innovative solutions are helping businesses and organizations become more efficient than ever.</div></div>
     <div class="container">
-        <div class="row">
-			<div  class="col s12 m4 l3">
+        <div class="row m-t">
+			<div  class="col s12 m3 l3">
                 <div class="center promo promo-example">
-                    <i class="mdi-social-group blue-text text-accent-3"></i>
-                    <h5 class="promo-caption txt_promo m-t-none teal-text">Access management</h5>
+					<div class="img-thumb img-thumb-1" title="Access management"></div>
+                    <h5 class="promo-caption txt_promo teal-text">Access management</h5>
                 </div>
             </div>
-            <div class="col s12 m4 l3">
+            <div class="col s12 m3 l3">
                 <div class="center promo promo-example">
-					<i class="mdi-notification-vpn-lock green-text text-lighten-1"></i>
-                    <h5 class="promo-caption txt_promo m-t-none teal-text">Identity as a Service</h5>
+					<div class="img-thumb img-thumb-2" title="Identity as a Service"></div>
+                    <h5 class="promo-caption txt_promo teal-text">Identity as a Service</h5>
                 </div>
             </div>
-            <div class="col s12 m4 l3">
+            <div class="col s12 m3 l3">
                 <div class="center promo promo-example">
-					<i class="mdi-hardware-security deep-purple-text text-lighten-1"></i>
-                    <h5 class="promo-caption txt_promo m-t-none teal-text">Identity Governance</h5>
+					<div class="img-thumb img-thumb-3" title="Identity Governance"></div>
+                    <h5 class="promo-caption txt_promo teal-text">Identity Governance</h5>
                 </div>
             </div>
-			<div class="col s12 m4 l3">
+			<div class="col s12 m3 l3">
                 <div class="center promo promo-example">
-                    <i class="mdi-file-cloud-queue orange-text text-lighten-1"></i>
-                    <h5 class="promo-caption txt_promo m-t-none teal-text">Cloud management & Migration</h5>
+					<div class="img-thumb img-thumb-4" title="Cloud management & Migration"></div>
+                    <h5 class="promo-caption txt_promo teal-text">Cloud Management</h5>
                 </div>
             </div>
             <div class="col s12">
@@ -84,7 +88,7 @@
         </div>
     </div>
 </div>
-<div class="section scrollspy" id="why">
+<div class="section" id="why">
     <div class="container">
         <h3 class="header text_b">Why Us </h3>
         <div class="row">
@@ -96,7 +100,7 @@
     </div>
 </div>
 <!--Work-->
-<div class="section scrollspy" id="work" style="padding-top:1rem;">
+<div class="section" id="work">
 	<div class="container">
 		<h3 class="header text_b">Work</h3>
 		<div class="card">
@@ -112,7 +116,7 @@
 			<li class="tab"><a class="icons-xs" href="#cMigration" title="Cloud migration"><i class="mdi-file-cloud-download indigo-text text-lighten-1"></i>Cloud migration</a></li>
 		  </ul>
 		</div>
-		<div class="card-content grey lighten-4">
+		<div class="card-content">
 			<div id="accessManage" class="light">Simplified, secure access management for greater protection and efficiency. Simplify and achieve secure access management for users and groups while controlling costs. One Identity automates account creation, assigns access, streamlines on-going administration, and unifies identities, passwords and directories. Remove manual processes and cumbersome native tools to increase security, dramatically improve efficiency and achieve compliance more easily. Extend that management from existing infrastructure, policy and procedures to administer systems that are less secure and difficult to manage.<br><br><b>Capabilities</b><br>Simplify authentication, streamline hybrid Active Directory (AD) management, improve password control, consolidate systems, securely manage application access and more with One Identity solutions.<br><br><b>Resources</b><br>Learn how our solutions are helping businesses and organizations become more efficient than ever.</div>
 			<div id="iService" class="light">Improve your security and extend to the cloud with confidence<br><br>Enhance security and simplify compliance while providing your organization the agility and affordability of cloud-based IAM. Get IAM right with IDaaS that enables digital transformation while reducing cloud risk — from a managed service cloud solution to our One Identity Starling SaaS offerings.<br><br><b>Capabilities</b><br>A cloud-based IAM portfolio designed to protect and support on-premise and cloud-based resources.<br><br><b>Resources</b><br>Learn how our solutions are helping businesses and organizations become more efficient than ever.</div>
 			<div id="iGovernance" class="light">Complete, business-driven governance for identity, data and privileges.<br><br>Achieve complete, business-driven governance for identities, data and privileged access by marrying visibility and control with administration. Gain simplicity and affordability with a unified governance foundation that addresses the management, auditing and compliance needs that are prerequisites to strong governance.<br><br><b>Enhance your business performance with Identity Governance solutions that improve:</b><br>Access governance<br>Data governance<br>Privileged account governance<br>Business-enabled access request and fulfillment<br>Attestation or recertification<br>Role engineering<br>Automated enterprise provisioning<br>Identity unification and process orchestration<br><br><b>Capabilities</b><br>Enhance security, simplify complexity, streamline processes, extend governance and improve access with Identity Governance solutions. Learn more about how we can optimize your business.</div>
@@ -123,10 +127,11 @@
 	</div>
 </div>
 <div class="parallax-container">
-    <div class="parallax"><img alt="Analytics Banner" src="img/analytics_banner.png"></div>
+    <div class="parallax"><img alt="Analytics Banner" src="img/parallax.jpg"></div>
+	<h5 class="parallax-msg">Explore how we fuse analytics, artificial intelligence (AI) and technology to forge an unprecedented level of results.<span class="msg-bullets">Prepare, Search, Report, Analyse, Integrate & Manage.</span></h5>
 </div>
 <!--Team-->
-<!-- <div class="section scrollspy" id="team">
+<!-- <div id="team" class="section">
     <div class="container">
         <h3 class="header text_b">Executive Team</h3>
         <div class="row">
@@ -137,7 +142,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Name<br>
-						<small><a class="text-darken-1" href="#">CEO</a></small></span>
+						<small class="teal-text">CEO</small></span>
                     </div>
                 </div>
             </div>
@@ -148,7 +153,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Name<br>
-						<small><a class="text-darken-1" href="#">Chief Finance Officer</a></small>
+						<small class="teal-text">Chief Finance Officer</small>
                         </span>
                     </div>
                 </div>
@@ -160,7 +165,7 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Name<br>
-						<small><a class="text-darken-1" href="#">SVP Operations</a></small></span>
+						<small class="teal-text">SVP Operations</small></span>
                     </div>
                 </div>
             </div>
@@ -171,72 +176,72 @@
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Robin<br>
-						<small><a class="text-darken-1" href="#">General Counsel</a></small></span>
+						<small class="teal-text">General Counsel</small></span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div> -->
+</div>--> 
 <!--Footer-->
-<footer id="contact" class="page-footer grey darken-3 scrollspy">
+<footer id="contact" class="page-footer grey lighten-5">
     <div class="container">  
         <div class="row">
-            <div class="col l6 s12">
-                <form class="col s12" action="contact.php" method="post">
+			<h5>Sign Up for Updates</h5>
+			<p class="m-n">Join our mailing list to get alerts on latest news, events, and product releases.</p>
+            <div class="col l7 s12">
+                <form class="col s12 p-n" action="contact.php" method="post">
                     <div class="row">
                         <div class="input-field col s6">
-                            <i class="mdi-action-account-circle prefix white-text"></i>
-                            <input id="icon_prefix" name="name" type="text" class="validate white-text">
-                            <label for="icon_prefix" class="white-text">First Name</label>
+                            <i class="mdi-action-account-circle prefix"></i>
+                            <input id="icon_prefix" name="name" type="text" class="validate">
+                            <label for="icon_prefix">Name</label>
                         </div>
                         <div class="input-field col s6">
-                            <i class="mdi-communication-email prefix white-text"></i>
-                            <input id="icon_email" name="email" type="email" class="validate white-text">
-                            <label for="icon_email" class="white-text">Email-id</label>
+                            <i class="mdi-communication-email prefix"></i>
+                            <input id="icon_email" name="email" type="email" class="validate">
+                            <label for="icon_email">Email-id</label>
                         </div>
                         <div class="input-field col s12">
-                            <i class="mdi-editor-mode-edit prefix white-text"></i>
-                            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
-                            <label for="icon_prefix2" class="white-text">Message</label>
+                            <i class="mdi-editor-mode-edit prefix"></i>
+                            <textarea id="icon_prefix2" name="message" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Message</label>
                         </div>
                         <div class="col offset-s7 s5">
-                            <button class="btn waves-effect waves-light red lighten-1" type="submit">Submit
+                            <button class="btn waves-effect waves-light red lighten-1" type="submit">Sumbit
                                 <i class="mdi-content-send right white-text"></i>
                             </button>
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">ID 360 Analytics</h5>
-				<span class="white-text light">Plot No 492, Vandanapuri Colony, Beeramguda, R.C. Puram, Hyderabad - 502032, Telangana, India</span>
-            </div>
-            <div class="col l3 s12">
-                <h5 class="white-text">Social</h5>
+            <div class="col offset-l2 l3 s12 social">
+				<h5 class="m-b-none">ID360 Analytics</h5>
+				<span class="light">Plot No 492, Vandanapuri Colony, Beeramguda, R.C. Puram, Hyderabad - 502032, Telangana, India</span>
+                <h5 class="m-b-none">Connect with us</h5>
                 <ul>
-                    <li>
-                        <a class="white-text light" href="https://www.facebook.com/" title="Facebook"><i class="small fa fa-facebook-square white-text v-middle m-r-xs"></i>Facebook</a>
+                    <li class="inline">
+                        <a class="grey-text social-ico" href="https://www.facebook.com/" title="Facebook"><i class="small fa fa-facebook-square v-middle m-r-sm"></i></a>
                     </li>
-                    <li>
-                        <a class="white-text light" href="https://github.com/" title="Twitter"><i class="small fa fa-twitter-square white-text v-middle m-r-xs"></i>Twitter</a>
+                    <li class="inline">
+                        <a class="grey-text social-ico" href="https://twitter.com/" title="Twitter"><i class="small fa fa-twitter-square v-middle m-r-sm"></i></a>
                     </li>
-                    <li>
-                        <a class="white-text light" href="https://www.linkedin.com/" title="Linkedin"><i class="small fa fa-linkedin-square white-text v-middle m-r-xs"></i>Linkedin</a>
+                    <li class="inline">
+                        <a class="grey-text social-ico" href="https://www.linkedin.com/" title="Linkedin"><i class="small fa fa-linkedin-square v-middle m-r-sm"></i></a>
                     </li>
-					<li>
-                        <a class="white-text light" href="https://plus.google.com/" title="Google+"><i class="small fa fa-google-plus-square white-text v-middle m-r-xs"></i>Google+</a>
+					<li class="inline">
+                        <a class="grey-text social-ico" href="https://plus.google.com/" title="Google+"><i class="small fa fa-google-plus-square v-middle m-r-sm"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
     </div>
     <div class="footer-copyright grey darken-4">
-        <div class="container">Copyright © 2018 ID 360 Analytics Ltd. All rights reserved.</div>
+        <div class="container light grey-text"><span>Copyright © 2018 ID360 Analytics, Ltd. All rights reserved.</span><span class="right hide-on-med-and-down"><a class="m-l-xs m-r-xs" title="Privacy Policy" href="arriving.html">Privacy Policy</a>|<a class="m-l-xs m-r-xs" title="Terms of Use" href="arriving.html">Terms of Use</a>|<a class="m-l-xs" title="Careers" href="arriving.html">Careers</a></span></div>
     </div>
 </footer>
-    <!--  Scripts-->
-    <script src="min/plugin-min.js"></script>
-    <script src="min/custom-min.js"></script>
-    </body>
+<!--  Scripts-->
+<script src="min/plugin-min.js"></script>
+<script src="min/custom-min.js"></script>
+</body>
 </html>
